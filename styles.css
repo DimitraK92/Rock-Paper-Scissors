@@ -8,6 +8,8 @@
 
 body {
     background: #292C34;
+    display: grid;
+    grid-template-rows: auto 8rem 2rem auto 1rem;
 }
 
 header {
@@ -15,11 +17,11 @@ header {
     padding: 20px;
 }
 
-    header > h1 {
-        color: #24272E;
-        text-align: center;
-        font-family: Asap, sans-serif;
-    }
+header > h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
 
 .score-board {
     margin: 20px auto;
@@ -59,11 +61,11 @@ header {
     color: white;
 }
 
-    .result > p {
-        text-align: center;
-        font-weight: bold;
-        font-family: Asap, sans-serif;
-    }
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap, sans-serif;
+}
 
 .choices {
     text-align: center;
@@ -79,15 +81,15 @@ header {
     transition: all 0.3s ease;
 }
 
-    .choice:hover {
-        cursor: pointer;
-        background: #24272E;
-    }
+.choice:hover {
+    cursor: pointer;
+    background: #24272E;
+}
 
 #action-message {
     text-align: center;
     color: white;
-    font-family: Asap, sans-serif;
+    font-family: Asap, sans-serif;  
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
